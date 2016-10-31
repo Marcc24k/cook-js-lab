@@ -19,10 +19,10 @@ function convert() {
 
 if( tempOutside < 54 ){
      document.getElementById("outfit").innerHTML = " HAl say's: its " + cel++ +
-        "° cesius" + " outside today, you might want to wear a coat";
+        "° celsius" + " outside today, you might want to wear a coat";
 }else if( tempOutside <= 54 && tempOutside <= 60  ){
      document.getElementById("outfit").innerHTML = " HAl say's: its " + cel++ +
-        "° cesius" + " outside today, I think a pullover should be fine today";
+        "° celsius" + " outside today, I think a pullover should be fine today";
 }else if( tempOutside >= 70  ){
       document.getElementById("outfit").innerHTML = " HAl say's: its " + cel++ +
         "° celsius" + " so shorts and a t-shirt should be fine";
