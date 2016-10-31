@@ -6,15 +6,20 @@ h1 {
     position: relative;
     color: orangered;
     left: 20%;
-    width: 50%;
+    width: 70%;
+    font-family:, sans-serif;
 }
 h2 {
     position: relative;
-    color: darkgreen;
-    left: 20%;
+    color: darkgoldenrod;
+    text-align: center;
+    left: 27%;
     width: 50%;
 }
 
+.hal{
+    color: lightslategrey;
+}
 #main-container {
     position: relative;
     left: 40%;
@@ -36,6 +41,8 @@ h2 {
 
 #outfit {
     position: relative;
+    width: 400px;
+    left:8%;
     text-align: center;
     top: 14%;
     font-family: passion one, sans-serif;
