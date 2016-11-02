@@ -22,6 +22,9 @@ h1{
 #background{
     position: relative;
     text-align: center;
-    font-family: fantasy;
+    font-family:monospace;
     
+}
+p{
+    color:whitesmoke;
 }
