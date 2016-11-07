@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=MedievalSharp|UnifrakturCook:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|VT323" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+<!--    <link rel="stylesheet" href="normalize.css">-->
+
+
+
+    <title>Marc Cook | Developer</title>
+</head>
+
+
+
+<body>
+
+    
+    
+    
+<!--        INVENTORY BOX-->
+    <section id="box">
+        
+        <h1>INVENTORY</h1>
+
+<!--
+        <input id="itemName" type="text" placeholder="Item">
+        <input id="itemPrice" type="text" placeholder="Price">
+-->
+    
+
+    </section>
+
+<!--THIS CONTAIN STLYING THAT GIVE THE BLUR EFFECT ON INVENTORY BOX-->
+
+    <div id="gaussian-blur">
+    
+    </div>    
+    
+    <!--THIS CONTAINER WILL HOLD ALL OF MY ITEMS        -->
+        <table id="item-container">
+           
+            <tr class="item-list">
+                 <h1 class="shop-inventory">SHOP INVENTORY</h1>
+                <td class="item">
+                    <h2><p>6250 <b>gold</b></p></h2>
+                    <img src="imgs/200px-BladeofWoe.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>75 <b>gold</b></p></h2>
+                    <img src="imgs/200px-CultistRobes.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>499 <b>gold</b></p></h2>
+                    <img src="imgs/200px-DaedricSwordoftheVampire.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>299 <b>gold</b></p></h2>
+                    <img src="imgs/Elvenmace.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>336 <b>gold</b></p></h2>
+                    <img src="imgs/200px-Dwarven_Armor.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                 <td class="item">
+                     <h2><p>1250 <b>gold</b></p></h2>
+                    <img src="imgs/Ebony_Sword.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>850 <b>gold</b></p></h2>
+                    <img src="imgs/200px-EbonyBoots.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>2350 <b>gold</b></p></h2>
+                    <img src="imgs/200px-DaedricBoots.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>150 <b>gold</b></p></h2>
+                    <img src="imgs/200px-SteelPlateBoots.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>1250 <b>gold</b></p></h2>
+                    <img src="imgs/200px-DwarvenHelmet_male.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                 <td class="item">
+                     <h2><p>950 <b>gold</b></p></h2>
+                    <img src="imgs/200px-ElvenSword.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>5250 <b>gold</b></p></h2>
+                    <img src="imgs/200px-GlassArmor_female.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>5000 <b>gold</b></p></h2>
+                    <img src="imgs/200px-NightingaleBow.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>750 <b>gold</b></p></h2>
+                    <img src="imgs/200px-NordicCarvedHelmet.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>170 <b>gold</b></p></h2>
+                    <img src="imgs/200px-PotionofPlentifulHealing.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                 <td class="item">
+                     <h2><p>250 <b>gold</b></p></h2>
+                    <img src="imgs/200px-PotionofVigorousHealing.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>150 <b>gold</b></p></h2>
+                    <img src="imgs/200px-WolfArmor.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>4350 <b>gold</b></p></h2>
+                    <img src="imgs/PotionofMinorHealing.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>3250 <b>gold</b></p></h2>
+                    <img src="imgs/Dragonbone_Sword.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                <td class="item">
+                    <h2><p>5250 <b>gold</b></p></h2>
+                    <img src="imgs/elven-helm200px.png">
+                    <button type="button" onclick="addToList()">Buy Item</button>
+                </td>
+                
+            </tr>
+        
+        
+        </table>        
+    
+<!--    THIS BOX CONTAINS ALL THE FOOTER INFO. HEALH, GOLD DAMAGE GA-->
+    
+    <section id="stat-box">
+
+        <ul id="stat-list">
+            <div class="equip">
+                <p>Equip</p>
+            </div>
+            <div class="drop">
+                <p>Drop</p>
+            </div>
+            <div class="charge">Charge</div>
+            <div class="damage">
+                <p>Damage</p>
+            </div>
+            <div class="carry-weight">
+                <p>Carry weight</p>
+            </div>
+            <div class="gold">
+                <b>Gold</b>
+            </div>
+            <div class="power-bar">
+                <p>Health</p>
+            </div>
+
+        </ul>
+
+
+        
+
+        
+
+        
+
+    </section>
+
+
+    <!--- 
+
+MY SCRIPT
+
+ALWAYS KEEP SCRIPT TAG BELOW WHAT YOU TRYING TO RUN
+
+-->
+
+
+    <!--        <script src="js/comparescript.js" type="text/javascript"></script>-->
+<!--    <script src="js/script.js" type="text/javascript"></script>-->
+     <script src="js/script2.js" type="text/javascript"></script>
+</body>
+
+</html>
